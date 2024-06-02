@@ -25,7 +25,7 @@ document.querySelector(".turkish-button").addEventListener("click", (e) => {
     document.querySelector(".train-p").innerText = "Tren";
 })
 
-document.querySelector(".english-button").addEventListener("click", (e) => {
+     document.querySelector(".english-button").addEventListener("click", (e) => {
     document.querySelector(".warning").innerText = "For the button to work, you need to select one sound.";
     document.querySelector(".discription").innerHTML = "Calibri web application is actually a project inspired by Microsoft's Elpy application.";
     document.querySelector(".contents").innerHTML = "What technologies were used?";
